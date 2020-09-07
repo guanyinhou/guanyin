@@ -1,0 +1,261 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體, arial;
+}
+p{
+	text-align: center;
+	margin: 0;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: bold;
+}
+
+/*parallax*/
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/0708.jpg');
+
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+/*parallax*/
+
+#home{
+	background-image: url(../images/blur.jpg);
+	background-size: cover;
+	height: 100%;
+}
+#skill{
+	background-image: url(../images/skill.jpg);
+	background-size: cover; 
+	text-align: center;
+	height: 100%;
+}
+#works{
+	background-image: url(../images/bg.jpg);
+	height: 100%;
+	background-size: cover;
+	text-align: center;
+}
+#contact{
+	position: relative;
+	height: 100%;
+	text-align: center;
+}
+#homePage{
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-top: 10%;
+}
+#containerSkill{
+	padding:8% 3%;
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 75%;
+	float: right;
+}
+#containerworks{
+	padding:0 3%;
+	/*border: 1px solid black;*/
+	padding-top: 10%;
+	height: 100%;
+}
+#containerContact{
+	padding:0 3%;
+	/*border: 1px solid black;*/
+	padding-top: 10%;
+}
+h1{
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	margin-top: 20%;
+	float: left;
+	width: 100%;
+	text-shadow: 2px 2px 3px #888;
+}
+#containerTop{
+	height: 100%;
+	position: relative;
+}
+#arrdown{
+	cursor: pointer;
+}
+#arrow{
+	margin-top: 15%;
+	float: left;
+	width: 5%;
+	position: absolute;
+	left: 47.5%;
+	top: 50%;
+	text-shadow: 2px 2px 3px #888;
+	z-index: 5;
+	animation-name: arrow;
+	animation-delay: 4s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes arrow {
+    0%   {margin-top: 15%;}
+    50%  {margin-top: 16%;}
+    100% {margin-top: 15%;}
+}
+.ulSkill{
+	background: none;
+	margin-bottom: 10%;
+	
+}
+.ulSkill a{
+	float: none;
+	font-size: 20px;
+	color: black;
+	margin-right: 2%;
+}
+.ulSkill p{
+	margin: 2%;
+}
+#ps:before{
+	content: url(../images/ps1.jpg);
+}
+#ai:before{
+	content: url(../images/ai1.jpg);
+}
+#hl:before{
+	content: url(../images/html1.png);
+}
+#cs:before{
+	content: url(../images/cs1.png);
+}
+#js:before{
+	content: url(../images/js1.png);
+}
+#jq:before{
+	content: url(../images/jq1.png);
+}
+#rwd:before{
+	content: url(../images/rwd1.png);
+}
+#bs:before{
+	content: url(../images/bs1.png);
+}
+#gh:before{
+	content: url(../images/gh1.png);
+}
+#sa:before{
+	content: url(../images/sa1.png);
+}
+#vue:before{
+	content: url(../images/vue.png);
+}
+h3{
+	font-family: 微軟正黑體, arial;
+	font-weight: bold;
+	margin: 0;
+}
+h2{
+	font-family: 微軟正黑體, arial;
+	font-weight: bold;
+	/*border: 1px solid black;*/
+}
+.worksPage{
+	/*border: 1px solid black;*/
+	width: 80%;
+	margin: 2% 10%;
+	height: 30%;
+}
+.worksPage li{
+	width: 23%;
+	height: auto;
+	margin: 0 1%; 
+}
+.gallery{
+	background: none;
+	margin-left: -1%;
+}
+.gallery a{
+	padding: 10px;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+	border: 5px solid #fff;
+}
+.gallery img:hover{
+	transform:scale(1.1);
+	transition-duration:0.5s;
+}
+.fa{
+	font-size: 30px !important;
+}
+#containerContact a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	margin: 0 2%;
+}
+#copyright{
+	position: absolute;
+	width: 100%;
+	bottom: 6%;
+}
+i:hover{
+	transform:scale(1.5) rotate(360deg);
+	transition-duration:0.5s;
+}
+i:touch{
+	transform:scale(1.5);
+	transition-duration:0.5s;
+}
+#cart a:hover{
+	transform:scale(1.1);
+	transition-duration:0.5s;
+	color:#000;
+}
+
+@media(max-width: 455px){
+	#arrow{
+		width: 15%;
+		left: 42.5%;
+	}
+	h2{
+		margin-top: 20%;
+	}
+	#skill{
+		background-position: center;
+
+	}
+	#containerSkill{
+		width: 100%;
+		padding:8% 0;
+	}
+	.gallery{
+		margin: 0;
+	}
+	.gallery li{
+		float: left;
+		width: 48%;
+		margin: 0;
+	}
+}

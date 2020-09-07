@@ -1,0 +1,20 @@
+.bg {
+    /* The image used */
+    background-image: url('../images/0707.jpg');
+    background-color: white;
+    animation-name: imgBlur;
+    animation-duration: 8s;
+    opacity: .3;
+	z-index: 1;
+    /* Full height */
+    height: 100%; 
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes imgBlur {
+    from {opacity: 1;}
+    to {opacity: .3;}
