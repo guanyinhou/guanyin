@@ -246,8 +246,13 @@ i:touch{
 	.ulSkill{
 		margin-bottom: 20px;
 	}
-	.ulskill a{
+	.ulSkill a{
 		font-size: 14px;
+	}
+	.worksPage{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 @media(max-width: 455px){
