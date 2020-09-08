@@ -132,6 +132,8 @@ h1{
 	font-size: 20px;
 	color: black;
 	margin-right: 2%;
+	display: inline-block;
+	margin-bottom: 10px;
 }
 .ulSkill p{
 	margin: 2%;
@@ -169,6 +171,9 @@ h1{
 #vue:before{
 	content: url(../images/vue.png);
 }
+#api:before{
+	content: url(../images/api.png);
+}
 h3{
 	font-family: 微軟正黑體, arial;
 	font-weight: bold;
@@ -197,6 +202,9 @@ h2{
 .gallery a{
 	padding: 10px;
 }
+.gallery p{
+	text-shadow: 2px 2px 6px #000;
+}
 .gallery img{
 	width: 100%;
 	height: auto;
@@ -220,6 +228,7 @@ h2{
 	position: absolute;
 	width: 100%;
 	bottom: 6%;
+	text-shadow: 1px 1px 0px #fff;
 }
 i:hover{
 	transform:scale(1.5) rotate(360deg);
