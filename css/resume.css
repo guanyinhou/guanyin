@@ -126,11 +126,6 @@ h1{
 	background: none;
 	margin-bottom: 10%;
 }
-@media(max-width: 479px){
-	.ulSkill{
-		margin-bottom: 20px;
-	}
-}
 .ulSkill a{
 	float: none;
 	font-size: 20px;
@@ -140,7 +135,7 @@ h1{
 	margin-bottom: 10px;
 }
 .ulSkill p{
-	margin: 2%;
+	margin: 2% 0;
 }
 #ps:before{
 	content: url(../images/ps1.jpg);
@@ -247,7 +242,14 @@ i:touch{
 	transition-duration:0.5s;
 	color:#000;
 }
-
+@media(max-width: 479px){
+	.ulSkill{
+		margin-bottom: 20px;
+	}
+	.ulskill a{
+		font-size: 14px;
+	}
+}
 @media(max-width: 455px){
 	#arrow{
 		width: 15%;
