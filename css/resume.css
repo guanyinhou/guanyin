@@ -125,7 +125,11 @@ h1{
 .ulSkill{
 	background: none;
 	margin-bottom: 10%;
-	
+}
+@media(max-width: 479px){
+	.ulSkill{
+		margin-bottom: 20px;
+	}
 }
 .ulSkill a{
 	float: none;
