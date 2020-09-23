@@ -63,6 +63,9 @@ body, html {
 	height: 100%;
 	text-align: center;
 }
+#contact img{
+	border-radius: 100%;
+}
 #homePage{
 	/*border: 1px solid black;*/
 	text-align: center;
@@ -263,7 +266,7 @@ i:touch{
 		left: 42.5%;
 	}
 	h2{
-		margin-top: 20%;
+		margin-top: 15%;
 	}
 	#skill{
 		background-position: center;
