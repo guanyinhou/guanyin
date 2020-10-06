@@ -10,7 +10,7 @@ p{
 	margin-top: 5%;
 	margin-left: 10%;
 	margin-right: 10%;
-	font-size: bold;
+	/* font-size: bold; */
 }
 
 /*parallax*/
@@ -70,6 +70,9 @@ body, html {
 	/*border: 1px solid black;*/
 	text-align: center;
 	padding-top: 10%;
+}
+#homePage p{
+	margin-top: 15px;
 }
 #containerSkill{
 	padding:8% 3%;
@@ -145,6 +148,9 @@ h1{
 }
 #ai:before{
 	content: url(../images/ai1.jpg);
+}
+#fg:before{
+	content: url(../images/fg.png);
 }
 #hl:before{
 	content: url(../images/html1.png);
